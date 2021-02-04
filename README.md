@@ -10,8 +10,16 @@
 
 ### Easy start
 
-```shell
+> Start up server
 
+```shell
+./start
+```
+
+> Shutdown server
+
+```shell
+./stop
 ```
 
 ### Steps
