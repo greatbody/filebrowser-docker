@@ -1,0 +1,7 @@
+#!/bin/sh
+
+echo 'Create new filebrowser.db'
+touch filebrowser.db
+echo 'Start up (may need to build if this is your first run)...'
+docker-compose up -d
+echo 'Finished'

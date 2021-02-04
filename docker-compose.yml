@@ -1,0 +1,12 @@
+version: '2.1'
+services:
+  filebrowser:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    volumes:
+      - ~/your-data-folder:/srv
+      - ./filebrowser.db:/database.db
+    ports:
+      - '8080:80'
+    image: filebrowser:v1
