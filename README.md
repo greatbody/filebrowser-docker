@@ -48,3 +48,7 @@ Below devices have been varified.
 
 - MacBook Pro (16-inch, 2019), macOS Big Sur
 - Linux raspberrypi 5.4.72-v7l+ #1356 SMP Thu Oct 22 13:57:51 BST 2020 armv7l
+
+### Advanced Usage
+
+You can replace `~/your-data-folder` in `docker-compose.yml` with your own data path.

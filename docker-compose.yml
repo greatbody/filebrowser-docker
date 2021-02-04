@@ -5,7 +5,7 @@ services:
       context: ./
       dockerfile: Dockerfile
     volumes:
-      - ~/your-data-folder:/srv
+      - ~/your-data-folder:/srv         # You can replace this "~/your-data-folder" with your own folder
       - ./filebrowser.db:/database.db
     ports:
       - '8080:80'
